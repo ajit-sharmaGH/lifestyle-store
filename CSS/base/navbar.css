@@ -1,0 +1,25 @@
+.header-part {
+    justify-content: space-around;
+    border: 0.5px solid var(--black);
+}
+
+.logo {
+    margin: 0 0 0 1rem;
+}
+
+.search-bar {
+    margin-right: auto;
+}
+
+.search-bar input {
+    height: 2rem;
+    width: 30vw;
+    outline: none;
+    border: 1px solid var(--dark-primary);
+    border-radius: 5px;
+    padding: 1px 5px;
+    font-family: monospace;
+    font-weight: 600;
+    color: #333;
+    font-size: large;
+}

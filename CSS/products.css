@@ -1,0 +1,66 @@
+@import url("base/navbar.css");
+@import url("base/sidebar.css");
+.main-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
+    grid-template-rows: repeat(1, 1fr);
+}
+
+.product-card-container {
+    box-shadow: 1px 1px 2px 2px var(--white);
+    margin: 1rem;
+    background-color: var(--white);
+    border-radius: 5px;
+}
+
+.product-card_container-images {
+    height: 20rem;
+    width: 100%;
+    background-size: cover;
+    border: 10px solid var(--white);
+    border-radius: 5px;
+}
+
+.card_heading {
+    color: var(--primary);
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-left: 1rem;
+}
+
+.card_sub-text,
+.card_sub-heading {
+    color: var(--dark-primary);
+    font-family: monospace;
+    font-weight: 800;
+    font-size: 1.2rem;
+    margin-left: 1rem;
+}
+
+.card_sub-text {
+    font-weight: 600;
+    font-size: 1rem;
+    color: var(--dark-secondary);
+}
+
+strike {
+    text-decoration: line-through;
+    color: var(--black);
+}
+
+.card_btn button {
+    width: 8rem;
+    margin: 1rem 0rem 1rem 0.6rem;
+    color: var(--white);
+    border: 2px solid var(--red);
+    font-weight: 600;
+}
+
+.card_btn>.btn-outline {
+    color: var(--hotpink);
+}
+
+.card_btn button:hover {
+    color: var(--primary);
+    background-color: white;
+}

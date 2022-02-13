@@ -1,19 +1,20 @@
+/* @import url("CSS/base/navbar.css"); */
+
 .body {
     font-family: 'Courier New', Courier, monospace;
 }
 
 .header-part {
-    display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     border: 0.5px solid var(--black);
 }
 
 .logo {
-    margin: 0 0 0 1rem;
+    margin-left: 0 0 0 1rem;
 }
 
-#bg-img {
-    opacity: 1;
+.search-bar {
+    margin-right: auto;
 }
 
 .search-bar input {
@@ -23,15 +24,20 @@
     border: 1px solid var(--dark-primary);
     border-radius: 5px;
     padding: 1px 5px;
-    box-shadow: 1px 1px 2px 2px var(--dark);
     font-family: monospace;
     font-weight: 600;
     color: #333;
     font-size: large;
 }
 
-.cart_landing-page-container {
+.landing-page-container {
     height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-center {
     display: flex;
     align-items: center;
     justify-content: center;
