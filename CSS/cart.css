@@ -1,1 +1,61 @@
 @import url("base/navbar.css");
+@import url("products.css");
+body {
+    font-family: montserrat;
+}
+
+.cart-body-container {
+    display: flex;
+    background-color: var(--dark-primary-text);
+    height: 100vh;
+}
+
+.cart-price-listing-card {
+    margin: 4rem 0rem -3rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.price-card {
+    min-width: 17rem;
+    min-height: 16rem;
+}
+
+.product-add-sub-btn {
+    margin-left: 1rem;
+    display: inline-block;
+}
+
+.product-add-sub-btn>button {
+    padding: 0px 10px;
+    color: var(--secondary-bg-color);
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: var(--secondary);
+}
+
+.price-details-heading {
+    border-bottom: 5px solid var(--dark-primary-text);
+    margin: 1rem 0rem;
+}
+
+.pricing-table {
+    width: 100%;
+}
+
+.pricing-table>tr,
+td {
+    border: 2px solid var(--dark-primary-text);
+    padding: 2px 10px;
+    font-weight: 800;
+    color: var(--dark-secondary);
+    font-family: montserrat;
+}
+
+@media screen and (max-width:800px) {
+    .cart-body-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
