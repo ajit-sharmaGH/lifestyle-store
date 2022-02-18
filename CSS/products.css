@@ -2,19 +2,19 @@
 @import url("base/sidebar.css");
 .main-container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
-    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr));
+    grid-template-rows: repeat(3, 1fr);
 }
 
 .product-card-container {
-    box-shadow: 1px 1px 2px 2px var(--white);
-    margin: 1rem;
+    margin: 1rem 0.5rem;
     background-color: var(--white);
     border-radius: 5px;
+    height: auto;
 }
 
 .product-card_container-images {
-    height: 20rem;
+    height: 18rem;
     width: 100%;
     background-size: cover;
     border: 10px solid var(--white);
@@ -23,7 +23,7 @@
 
 .card_heading {
     color: var(--primary);
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: 600;
     margin-left: 1rem;
 }
@@ -33,14 +33,14 @@
     color: var(--dark-primary);
     font-family: monospace;
     font-weight: 800;
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin-left: 1rem;
 }
 
 .card_sub-text {
     font-weight: 600;
-    font-size: 1rem;
-    color: var(--dark-secondary);
+    font-size: 0.8rem;
+    color: var(--nav-color);
 }
 
 strike {
@@ -49,11 +49,13 @@ strike {
 }
 
 .card_btn button {
-    width: 8rem;
-    margin: 1rem 0rem 1rem 0.6rem;
+    width: 6rem;
+    margin: 0.5rem 0rem 0.5rem 0.6rem;
     color: var(--white);
     border: 2px solid var(--red);
     font-weight: 600;
+    font-size: 1rem;
+    padding: 5px 0px;
 }
 
 .card_btn>.btn-outline {
