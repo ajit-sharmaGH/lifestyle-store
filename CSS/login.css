@@ -1,1 +1,59 @@
 @import url("base/navbar.css");
+.login-container {
+    height: 100vh;
+}
+
+form {
+    font-family: montserrat;
+    min-width: 40%;
+}
+
+.input-contents {
+    background-color: var(--dark-primary-text);
+}
+
+.login-input-box {
+    height: 2rem;
+    border: 1px solid var(--blueviolet);
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+    padding: 0 0.5rem;
+}
+
+.label-tags>label {
+    margin-bottom: 1rem;
+    color: var(--green);
+}
+
+.label-tags a {
+    color: var(--green);
+}
+
+.remember-me {
+    margin-right: 2rem;
+}
+
+.remember-me>input {
+    margin-right: 0.5rem;
+}
+
+.forget-pwd {
+    margin-left: auto;
+    border: 1px solid var(--blueviolet);
+    background-color: var(--danger-bg-color);
+    padding: 0 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.input-contents>a {
+    color: var(--green);
+}
+
+.login-btn {
+    margin-bottom: 1rem;
+}
+
+.forget-pwd:hover,
+.login-btn:hover {
+    background-color: var(--success-bg-color);
+}
