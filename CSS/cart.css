@@ -10,16 +10,14 @@ body {
     height: 100vh;
 }
 
-.cart-price-listing-card {
-    margin: 4rem 0rem -3rem 1rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.cart-container {
+    background-color: var(--dark-primary-text) !important;
 }
 
 .price-card {
     min-width: 17rem;
-    min-height: 16rem;
+    max-height: 18rem;
+    margin: 4.5rem 0.5rem -2rem 1rem;
 }
 
 .product-add-sub-btn {
@@ -38,6 +36,9 @@ body {
 .price-details-heading {
     border-bottom: 5px solid var(--dark-primary-text);
     margin: 1rem 0rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--tertiary);
 }
 
 .pricing-table {

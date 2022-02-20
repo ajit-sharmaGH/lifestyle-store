@@ -4,6 +4,7 @@
 }
 
 form {
+    margin: 1rem;
     font-family: montserrat;
     min-width: 40%;
 }
@@ -15,13 +16,13 @@ form {
 .login-input-box {
     height: 2rem;
     border: 1px solid var(--blueviolet);
-    margin-bottom: 1rem;
+    margin: 0.5rem 0;
     border-radius: 0.5rem;
     padding: 0 0.5rem;
 }
 
 .label-tags>label {
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
     color: var(--green);
 }
 
@@ -30,7 +31,7 @@ form {
 }
 
 .remember-me {
-    margin-right: 2rem;
+    margin-right: 1rem;
 }
 
 .remember-me>input {
@@ -50,7 +51,7 @@ form {
 }
 
 .login-btn {
-    margin-bottom: 1rem;
+    margin: 0.5rem 0;
 }
 
 .forget-pwd:hover,

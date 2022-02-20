@@ -2,31 +2,8 @@
     display: flex;
 }
 
-.sidebar-navigation {
-    width: 20rem;
-    background-color: var(--nav-color);
-    height: calc(100vh - 3.5rem);
-    overflow: auto;
-    margin-top: 3.5rem;
-}
-
 .sidebar-link {
-    display: flex;
-    flex-direction: column;
-}
-
-.sidebar-link li {
-    margin-top: 0.2rem;
-    color: var(--white);
-    padding: 0.5rem 2rem;
-    font-family: monospace;
-    font-weight: bold;
-    font-size: 1.2rem;
-    border-radius: 0.5rem;
-}
-
-.sidebar-link li:hover {
-    background-color: var(--tertiary);
+    align-items: flex-start !important;
 }
 
 .sidebar-navigation::-webkit-scrollbar {
@@ -47,7 +24,8 @@
 }
 
 .filter {
-    margin: 1rem 0 0 1.5rem;
+    text-align: left;
+    margin: 0rem 0rem 0.5rem 2rem;
 }
 
 .filter p {

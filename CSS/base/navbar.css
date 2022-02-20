@@ -1,5 +1,5 @@
 .header-part {
-    justify-content: space-around;
+    justify-content: space-between;
     border: 0.5px solid var(--black);
 }
 
@@ -20,6 +20,6 @@
     padding: 1px 5px;
     font-family: monospace;
     font-weight: 600;
-    color: #333;
+    color: var(--nav-color);
     font-size: large;
 }
