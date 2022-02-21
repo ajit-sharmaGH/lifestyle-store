@@ -1,10 +1,10 @@
 @import url("base/navbar.css");
 .login-container {
-    height: 100vh;
+    overflow: auto;
 }
 
 form {
-    margin: 1rem;
+    margin: 4.5rem 1rem;
     font-family: montserrat;
     min-width: 40%;
 }
