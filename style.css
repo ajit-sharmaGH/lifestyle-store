@@ -82,15 +82,12 @@
 }
 
 .landing-page-secondary {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
-    grid-template-rows: repeat(1, 1fr);
-    overflow: hidden;
     background-color: var(--dark-primary-text);
 }
 
 .category_container {
-    margin: 1rem;
+    margin: 0.5rem;
+    width: 30%;
 }
 
 .landing-images {
@@ -100,4 +97,18 @@
 .landing-images:hover {
     opacity: 0.5;
     cursor: pointer;
+}
+
+@media screen and (max-width:992px) {
+    .landing-page-secondary {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+        grid-template-rows: repeat(1, 1fr);
+        overflow: hidden;
+        background-color: var(--dark-primary-text);
+    }
+    .category_container {
+        margin: 0.5rem;
+        width: auto;
+    }
 }
